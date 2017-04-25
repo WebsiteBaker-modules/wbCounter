@@ -1,0 +1,54 @@
+.mod-stats .chcTable
+{
+  width: 190px;
+  border-spacing: 1px;
+  border-width: 1px;
+  border-color: #FF0000;
+  border-style: solid;
+  text-align: left;
+  background-color: #E0DFDF;
+}
+.mod-stats .chcHeaderRow
+{
+  background-color: #E0DFDF;
+  color: #00000;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 3px;
+}
+.mod-stats .chcLeftRow
+{
+  background-color: #F2F0F0;
+  color: #000000;
+  font-size: 10px;
+  padding: 3px;
+}
+.mod-stats .chcLeftRowAlt
+{
+  background-color: #E0DFDF;
+  color: #000000;
+  font-size: 10px;
+  padding: 3px;
+}
+.mod-stats .chcRightRow
+{
+  background-color: #F2F0F0;
+  font-size: 11px;
+  font-weight: bold;
+  color: #000000;
+  padding: 3px;
+  text-align: right;
+}
+.mod-stats .chcRightRowAlt
+{
+  background-color: #E0DFDF;
+  font-size: 11px;
+  font-weight: bold;
+  color: #000000;
+  padding: 3px;
+  text-align: right;
+}
+.mod-stats .chcA a
+{
+  font-size: 10px;
+}

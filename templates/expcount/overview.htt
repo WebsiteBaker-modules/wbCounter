@@ -1,0 +1,50 @@
+<!-- BEGIN main_block -->
+    <!-- available replacements
+    -->
+  <div class="mod-stats middle h600">
+    <table  class="mod-stats chcTable"style="position: relative; margin: 0.525em auto;" >
+        <thead>
+          <tr>
+            <th colspan="2">
+              <p style="line-height: 1.8; margin: 0;">{GENERAL}</p>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="chcLeftRow">{total_visitors:}</td>
+                <td class="chcRightRow">{visitors}</td>
+            </tr>
+            <tr>
+                <td class="chcLeftRowAlt">{visitors_today:}</td>
+                <td class="chcRightRowAlt">{today}</td>
+            </tr>
+            <tr>
+                <td class="chcLeftRow">{visitors_yesterday:}</td>
+                <td class="chcRightRow">{yesterday}</td>
+            </tr>
+            <tr>
+                <td class="chcLeftRowAlt">{max_visitors_per_day:}</td>
+                <td class="chcRightRowAlt">{V_MAX_VISITORS_PER_DAY}</td>
+            </tr>
+            <tr>
+                <td class="chcLeftRow">{visitors_currently_online:}</td>
+           <!-- <td class="chcRightRow"><a rel="nofollow" href="{V_COUNTER_URL}/stats/online_users.php" onclick="window.open('{V_COUNTER_URL}/stats/online_users.php','online_users','width=700,height=350,screenX=0,screenY=0,resizable=yes,scrollbars=yes'); return false;" target="online_users">{V_VISITORS_CURRENTLY_ONLINE}</a></td> -->
+                <td class="chcRightRow"> {online}</td>
+            </tr>
+            <tr>
+                <td class="chcLeftRowAlt">{max_visitors_online:}</td>
+                <td class="chcRightRowAlt">{V_MAX_VISITORS_ONLINE}</td>
+            </tr>
+            <tr>
+                <td class="chcLeftRow">{total_page_views:}</td>
+                <td class="chcRightRow">{ptoday}</td>
+            </tr>
+            <tr>
+                <td class="chcLeftRowAlt">{page_views_this_page:}</td>
+                <td class="chcRightRowAlt">{V_PAGE_VIEWS_THIS_PAGE}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<!-- END main_block -->

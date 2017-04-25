@@ -1,0 +1,92 @@
+<!-- BEGIN main_block -->
+    <!-- available replacements
+    -->
+  <div class="mod-stats middle h600">
+    <table class="mod-stats" style="height: auto; width: 100%;">
+        <caption><h3>{GENERAL}</h3></caption>
+        <thead>
+        <tr><th></th><th></th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="2"><h4>{TOTALS}</h4></td>
+          </tr>
+          <tr >
+            <td ><strong>{TOTALVISITORS}</strong></td>
+            <td >{visitors}</td>
+          </tr>
+          <tr>
+            <td ><strong>{TOTALPAGES}</strong></td>
+            <td >{visits}</td>
+          </tr>
+          <tr>
+            <td colspan="2"><h4>{LIVE}</h4></td>
+          </tr>
+          <tr >
+            <td>
+                <strong>
+                    {CURRENTONLINE}
+                </strong>
+            </td>
+            <td>{online}</td>
+          </tr>
+          <tr>
+            <td colspan="2"><h4>{TODAY}</h4></td>
+          </tr>
+          <tr>
+            <td><strong>{TODAYVISITORS}</strong></td>
+            <td>{today}</td>
+          </tr>
+          <tr>
+            <td><strong>{TODAYPAGES}</strong></td>
+            <td>{ptoday}</td>
+          </tr>
+          <tr>
+            <td><strong>{TODAYBOTS}</strong></td>
+            <td>{btoday}</td>
+          </tr>
+          <tr>
+            <td colspan="2"><h4>{YESTERDAY}</h4></td>
+          </tr>
+          <tr>
+            <td><strong>{YESTERVISITORS}</strong></td>
+            <td>{yesterday}</td>
+          </tr>
+          <tr>
+            <td><strong>{YESTERPAGES}</strong></td>
+            <td>{pyesterday}</td>
+          </tr>
+          <tr>
+            <td><strong>{YESTERDAYBOTS}</strong></td>
+            <td>{byesterday}</td>
+          </tr>
+          <tr>
+              <td colspan="2"><h4>{MISC}</h4></td>
+          </tr>
+          <tr>
+            <td><strong>{BOUNCES}</strong></td>
+            <td>{bounced}%</td>
+          </tr>
+          <tr>
+            <td colspan="2"><h4>{AVERAGES}</h4></td>
+          </tr>
+          <tr>
+            <td><strong>{AVGPAGESVISIT}</strong></td>
+            <td>{page_user}</td>
+          </tr>
+          <tr>
+            <td><strong>{AVG7VISITS}</strong></td>
+            <td>{avg_7}</td>
+          </tr>
+          <tr>
+            <td><strong>{AVG30VISITS}</strong></td>
+            <td>{avg_30}</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td><td>&nbsp;</td>
+          </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- END main_block -->
